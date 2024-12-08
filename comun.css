@@ -1,0 +1,132 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.header{
+    display: flex;    
+    justify-content: space-between ;
+    align-items: center;        
+    background-color: /*whitesmoke;*/ rgba(201,80,144,0.4);
+    height: 80px;
+    width: 100%;
+    color: blue; /*whitesmoke;*/ 
+        
+}
+
+
+.header div{
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+    
+     
+     
+     
+    
+}
+
+.header div h2{
+    margin-left: 130px;
+}
+
+.header div img{    
+    width: 100px;
+    height: 60px;
+    margin-left: 10px; 
+    position: fixed;      
+    animation-name: animacion;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    transition: 4s;
+}
+
+@keyframes animacion{
+    0%{transform: scale(0);}
+    25%{transform: scale(0.25);}
+    50%{transform: scale(0.5);}
+    75%{transform: scale(0.75);}
+    90%{transform: scale(1);}
+    100%{transform: scale(1.5);}    
+    0%{transform: scale(1);}
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;   
+}
+
+.nav ul li{   
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 25px 0px 0px;
+    transition: 0.3s;
+}
+
+.nav ul li:hover{
+    background-color: rgba(0, 0, 255,0.3);
+
+}
+
+.nav ul li a{
+    text-decoration: none;    
+    color: blue/*white;*/
+    
+}
+
+.nav ul li a:hover{
+    color: whitesmoke;
+    
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end;           
+    background-color: rgba(201,80,144,0.4);
+    /*background-image: linear-gradient(#bd71b6, pink, white);*/
+    height: 200px;
+   /* width: 100%;*/
+    color: blue;   
+    border-top: 3px solid rgb(201,80,144);;
+}
+
+.footer div{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: flex-end;
+    align-items: center;        
+    
+    margin-left: 350px;
+
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    
+}
+
+.footer div p{    
+    margin-left: 10px;
+}
+
+.footer div img{
+    margin: 0px 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    box-shadow: 10px 0px 10px;
+    transition: 0.3s;
+    
+}
+
+.footer div img:hover{
+    transform: scale(1.3);
+}
+

@@ -1,0 +1,27 @@
+
+@import url('comun.css');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    background-color: rgba(21,175,245,0.6); 
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    
+    
+}
+
+.album{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.album img{
+    width: 200px;
+    height:200px ;
+}
